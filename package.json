@@ -6,6 +6,9 @@
   "engines": {
     "node": ">=4"
   },
+  "scripts":{
+    "gulp":"./node_modules/.bin/gulp serve"
+  },
   "devDependencies": {
     "browser-sync": "^2.2.1",
     "del": "^2.2.0",
