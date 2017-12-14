@@ -7,7 +7,9 @@
     "node": ">=4"
   },
   "scripts":{
-    "gulp":"./node_modules/.bin/gulp serve"
+    "serve":"./node_modules/.bin/gulp serve",
+    "default":"./node_modules/.bin/gulp default",
+    "build":"./node_modules/.bin/gulp build"
   },
   "devDependencies": {
     "browser-sync": "^2.2.1",
